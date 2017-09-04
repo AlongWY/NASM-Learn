@@ -6,7 +6,7 @@
 ;-------------------------------------------------------------------
 
 SECTION .data                            ; 数据段
-msg     db      'Hello World!', 0Ah     ; 创建字符串，0AH是换行符
+    msg     db  'Hello World!', 0Ah     ; 创建字符串，0Ah是换行符
 
 SECTION .text                            ; 代码段
 global  _start

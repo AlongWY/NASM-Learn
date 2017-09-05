@@ -2,6 +2,7 @@
 ; by alongwy
 ; 编译： nasm -f elf helloworld.asm
 ; 链接： ld -m elf_i386 helloworld.o -o helloworld
+;        64位系统需要 elf_i386 选项
 ; 运行： ./helloworld
 ;-------------------------------------------------------------------
 

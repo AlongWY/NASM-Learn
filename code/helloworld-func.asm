@@ -1,9 +1,9 @@
-;-----------------Hello World Program(Subroutines)------------------
+;--------------------Hello World Program(func)----------------------
 ; by alongwy
-; 编译： nasm -f elf helloworld-sub.asm
-; 链接： ld -m elf_i386 helloworld-sub.o -o helloworld-sub
+; 编译： nasm -f elf helloworld-func.asm
+; 链接： ld -m elf_i386 helloworld-func.o -o helloworld-func
 ;        64位系统需要 elf_i386 选项
-; 运行： ./helloworld-sub
+; 运行： ./helloworld-func
 ;-------------------------------------------------------------------
 
 SECTION .data                            ; 数据段
